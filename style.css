@@ -19,7 +19,7 @@
 
 .btn.test-completed::after,
 .btn.test-completed::before {
-    content: "Test";
+    content: "No";
     position: absolute;
     text-align: center;
     width: 100%;
@@ -38,7 +38,7 @@
 }
 
 .btn.test-completed::before {
-    content: "Completed";
+    content: "Yes";
     top: 36px;
 }
 
